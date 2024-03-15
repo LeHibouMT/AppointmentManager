@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RDV Manager</string>
+    <string name="nav_header_subtitle">Développée par Le Hibou</string>
+    <string name="menu_calendar">Calendrier</string>
+    <string name="menu_appointments">Rendez-vous</string>
+    <string name="menu_languages">Langues</string>
+    <string name="menu_settings">paramètres</string>
+    <string name="activated">activé</string>
+    <string name="desactivated">désactivaté</string>
+    <string name="importedcontact">Contact importé</string>
+
+    <string name="editmsg">Modifier le rendez-vous</string>
+    <string name="okmsg">OK</string>
+    <string name="delatemsg">Supprimer</string>
+    <string name="cancelmsg">Annuler</string>
+    <string name="addrdv">Ajouter un rendez-vous</string>
+    <string name="rdvname">Nommer le rendez-vous</string>
+    <string name="rdvnoname">Sans nom</string>
+    <string name="rdvaddress">Adresse du rendez-vous</string>
+    <string name="googlemap">Voir sur GoogleMap</string>
+    <string name="importcontact">Importer un contact</string>
+    <string name="modifybutton">Modifier</string>
+    <string name="backbutton">Back</string>
+    <string name="shareappointment">Partager le rendez-vous</string>
+    <string name="namecontact">Nom du contact</string>
+    <string name="numbercontact">Numéro du contact</string>
+
+    <string name="name">"Titre : "</string>
+    <string name="date">"Date : "</string>
+    <string name="time">"Heure : "</string>
+    <string name="address">"Adresse : "</string>
+    <string name="contactname">"Contact : "</string>
+    <string name="contactnumber">"Numéro : "</string>
+
+    <string name="daymode">"Thème clair"</string>
+    <string name="nightmode">"Thème sombre"</string>
+    <string name="music">"Musique"</string>
+    <string name="notifications">"Notifications"</string>
+
+</resources>

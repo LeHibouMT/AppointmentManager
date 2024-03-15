@@ -1,0 +1,1 @@
+<p align="justify">Project created in Kotlin with Android Studio, the mobile application is for Android 13.0 or higher. The application is similar to Google Calendar. I made this during my fourth year of University.</p>

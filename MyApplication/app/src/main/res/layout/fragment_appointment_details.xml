@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_appointment_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll_view_appointment_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-212dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="match_parent"
+            tools:layout_editor_absoluteY="?attr/actionBarSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_back"
+                    android:layout_width="125dp"
+                    android:layout_height="48dp"
+                    android:gravity="center"
+                    android:text="@string/backbutton" />
+
+                <Button
+                    android:id="@+id/btn_modify"
+                    android:layout_width="125dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:text="@string/modifybutton" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/show_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center|start"
+                android:minHeight="75dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/show_date"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginBottom="20dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center|start"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/show_time"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginBottom="20dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center|start"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/show_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center|start"
+                android:minHeight="75dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text=""
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/importMapButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="@string/googlemap" />
+
+            <TextView
+                android:id="@+id/show_ContactName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center|start"
+                android:minHeight="75dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text=""
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/show_ContactNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="?attr/colorPrimary"
+                android:gravity="center|start"
+                android:minHeight="75dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text=""
+                android:textSize="32sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/callButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginBottom="16dp"
+                    app:srcCompat="@drawable/call"
+                    tools:ignore="MissingConstraints" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/shareButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="45dp"
+                    app:srcCompat="@android:drawable/ic_dialog_email"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
